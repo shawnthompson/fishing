@@ -3,11 +3,42 @@ body {
   color: #fff;
 }
 
-//328 × 199
+// Logo
 header {
   height: 199px;
   margin: auto;
   width: 328px;
+}
+
+// Feature Report 653 × 479
+.ftr-rprt {
+  -moz-background-size: fill;
+  -o-background-size: fill;
+  -webkit-background-size: fill;
+  background: url('../img/feature-border.png') no-repeat center center;
+  width: 653px;
+  height: 479px;
+
+}
+// Primary Nav
+.navbar {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+// Secondary Nav
+.scndry-nav {
+  li {
+
+    margin-bottom: 20px;
+
+    a {
+      font-weight: 100;
+      padding: 25px 5px 25px 50px;
+      width: 200px
+    }
+  }
 }
 
 .bnnr {

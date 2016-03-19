@@ -7,6 +7,26 @@ header {
   margin: auto;
   width: 328px; }
 
+.ftr-rprt {
+  -moz-background-size: fill;
+  -o-background-size: fill;
+  -webkit-background-size: fill;
+  background: url("../img/feature-border.png") no-repeat center center;
+  width: 653px;
+  height: 479px; }
+
+.navbar {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  padding: 20px; }
+
+.scndry-nav li {
+  margin-bottom: 20px; }
+  .scndry-nav li a {
+    font-weight: 100;
+    padding: 25px 5px 25px 50px;
+    width: 200px; }
+
 .bnnr {
   -moz-background-size: fill;
   -o-background-size: fill;
