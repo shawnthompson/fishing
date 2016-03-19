@@ -1,0 +1,75 @@
+body {
+  background: url('../img/background-image.png') no-repeat top center #000;
+  color: #fff;
+}
+
+//328 × 199
+header {
+  height: 199px;
+  margin: auto;
+  width: 328px;
+}
+
+.bnnr {
+  -moz-background-size: fill;
+  -o-background-size: fill;
+  -webkit-background-size: fill;
+  background: url('../img/wood-banner.png') no-repeat center center;
+  background-size: fill;
+  padding: 50px 20px;
+
+  a {
+    color: #ef5a28;
+    text-shadow: -2px 2px #000;
+
+    &:hover {
+      text-decoration: 0;
+      text-shadow: none;
+    }
+  }
+
+  .slgn {
+    font-size: 1.5em;
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 0;
+}
+
+.bg-ftr {
+  background-color: #ef5a28;
+  clear: both;
+  padding: 50px 125px 200px;
+
+  li {
+    margin-bottom: 5px;
+
+    &.heading {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #fff;
+      font-weight: 100;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+
+.bttm-ftr {
+  background-color: #fff;
+  clear: both;
+  color: #aaa;
+  padding: 25px 100px 75px;
+}
