@@ -1,6 +1,7 @@
 body {
   background: url('../img/background-image.png') no-repeat top center #000;
   color: #fff;
+  text-transform: uppercase;
 }
 
 // Logo
@@ -10,37 +11,39 @@ header {
   width: 328px;
 }
 
-// Feature Report 653 × 479
-.ftr-rprt {
-  -moz-background-size: fill;
-  -o-background-size: fill;
-  -webkit-background-size: fill;
-  background: url('../img/feature-border.png') no-repeat center center;
-  width: 653px;
-  height: 479px;
-
+.container {
+  background-color: #fff;
+  padding: 0;
 }
+
 // Primary Nav
 .navbar {
   margin-bottom: 0;
-  text-transform: uppercase;
-  padding: 20px;
-}
+  padding: 20px 3px;
+  font-weight: 100;
 
-// Secondary Nav
-.scndry-nav {
   li {
-
-    margin-bottom: 20px;
-
     a {
-      font-weight: 100;
-      padding: 25px 5px 25px 50px;
-      width: 200px
+      border-left: solid 1px #ccc;
+    }
+
+    .btn {
+      margin-right: 10px;
+      a {
+        border: 0;
+        color: #fff;
+      }
+    }
+
+    &:nth-child(3) {
+      a {
+        border: 0;
+      }
     }
   }
 }
 
+// Banner
 .bnnr {
   -moz-background-size: fill;
   -o-background-size: fill;
@@ -48,6 +51,7 @@ header {
   background: url('../img/wood-banner.png') no-repeat center center;
   background-size: fill;
   padding: 50px 20px;
+  text-transform: none;
 
   a {
     color: #ef5a28;
@@ -68,13 +72,128 @@ header {
   }
 }
 
-.btn {
-  border-radius: 0;
+main {
+  margin-top: 50px;
+
+  // Secondary Nav
+  .scndry-nav {
+    li {
+
+      margin-bottom: 20px;
+
+      a {
+        font-weight: 100;
+        text-align: left;
+        padding: 15px 15px 15px 75px;
+        min-height: 75px;
+        white-space: normal;
+        overflow-wrap: break-word;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  // Feature Report 653 × 479
+  .ftr-rprt {
+    -moz-background-size: fill;
+    -o-background-size: fill;
+    -webkit-background-size: fill;
+    background-size: fill;
+    background: url('../img/feature-border.png') no-repeat center center;
+    width: 653px;
+    height: 479px;
+
+    h2 {
+      color: #e15525;
+    }
+
+    .dl-horizontal {
+      margin-top: 15px;
+
+      dt {
+        text-align: left;
+        width: inherit;
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+
+      dd {
+        margin-left: 0;
+      }
+    }
+  }
+
+  // Nav map
+  .nav-map {
+    background-color: #000;
+    background: url('../img/navionics-banner.png') no-repeat left center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 50px 20px 50px 130px;
+    font-size: 3em;
+    margin-bottom: 30px;
+
+    p {
+      margin: 0;
+      padding: 0;
+      line-height: 1em;
+      text-shadow: -2px 2px #000;
+
+      &:nth-child(2) {
+        color: #e15525;
+        font-weight: 700;
+      }
+    }
+  }
+
+  // Supporters section
+  .spprtrs {
+    min-height: 400px;
+
+    header {
+      background: url('../img/supporters-top.png') no-repeat left center;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+   }
+
+    footer {
+      background: url('../img/supporters-bottom.png') no-repeat left center;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+  }
 }
 
-.container {
-  background-color: #fff;
-  padding: 0;
+// Buttons
+.btn {
+  border-radius: 0;
+
+  // Facebook Button
+  &.btn-fcbk {
+    background-color: #044170;
+  }
+
+  // Forum Button
+  &.btn-frm {
+    background-color: #7f3015;
+  }
+
+  // Lastest Posts Button
+  &.btn-ltst-psts {
+    background-color: #4b4b4b;
+  }
+
+  // Swag Button
+  &.btn-swg {
+    background-color: #e15525;
+  }
 }
 
 .bg-ftr {
@@ -96,7 +215,6 @@ header {
     }
   }
 }
-
 
 .bttm-ftr {
   background-color: #fff;

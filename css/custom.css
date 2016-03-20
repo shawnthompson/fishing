@@ -1,31 +1,30 @@
 body {
   background: url("../img/background-image.png") no-repeat top center #000;
-  color: #fff; }
+  color: #fff;
+  text-transform: uppercase; }
 
 header {
   height: 199px;
   margin: auto;
   width: 328px; }
 
-.ftr-rprt {
-  -moz-background-size: fill;
-  -o-background-size: fill;
-  -webkit-background-size: fill;
-  background: url("../img/feature-border.png") no-repeat center center;
-  width: 653px;
-  height: 479px; }
+.container {
+  background-color: #fff;
+  padding: 0; }
 
 .navbar {
   margin-bottom: 0;
-  text-transform: uppercase;
-  padding: 20px; }
-
-.scndry-nav li {
-  margin-bottom: 20px; }
-  .scndry-nav li a {
-    font-weight: 100;
-    padding: 25px 5px 25px 50px;
-    width: 200px; }
+  padding: 20px 3px;
+  font-weight: 100; }
+  .navbar li a {
+    border-left: solid 1px #ccc; }
+  .navbar li .btn {
+    margin-right: 10px; }
+    .navbar li .btn a {
+      border: 0;
+      color: #fff; }
+  .navbar li:nth-child(3) a {
+    border: 0; }
 
 .bnnr {
   -moz-background-size: fill;
@@ -33,7 +32,8 @@ header {
   -webkit-background-size: fill;
   background: url("../img/wood-banner.png") no-repeat center center;
   background-size: fill;
-  padding: 50px 20px; }
+  padding: 50px 20px;
+  text-transform: none; }
   .bnnr a {
     color: #ef5a28;
     text-shadow: -2px 2px #000; }
@@ -45,12 +45,81 @@ header {
     .bnnr .slgn span {
       display: block; }
 
+main {
+  margin-top: 50px; }
+  main .scndry-nav li {
+    margin-bottom: 20px; }
+    main .scndry-nav li a {
+      font-weight: 100;
+      text-align: left;
+      padding: 15px 15px 15px 75px;
+      min-height: 75px;
+      white-space: normal;
+      overflow-wrap: break-word;
+      color: #fff;
+      text-transform: uppercase; }
+  main .ftr-rprt {
+    -moz-background-size: fill;
+    -o-background-size: fill;
+    -webkit-background-size: fill;
+    background-size: fill;
+    background: url("../img/feature-border.png") no-repeat center center;
+    width: 653px;
+    height: 479px; }
+    main .ftr-rprt h2 {
+      color: #e15525; }
+    main .ftr-rprt .dl-horizontal {
+      margin-top: 15px; }
+      main .ftr-rprt .dl-horizontal dt {
+        text-align: left;
+        width: inherit;
+        margin-right: 15px;
+        margin-left: 15px; }
+      main .ftr-rprt .dl-horizontal dd {
+        margin-left: 0; }
+  main .nav-map {
+    background-color: #000;
+    background: url("../img/navionics-banner.png") no-repeat left center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 50px 20px 50px 130px;
+    font-size: 3em;
+    margin-bottom: 30px; }
+    main .nav-map p {
+      margin: 0;
+      padding: 0;
+      line-height: 1em;
+      text-shadow: -2px 2px #000; }
+      main .nav-map p:nth-child(2) {
+        color: #e15525;
+        font-weight: 700; }
+  main .spprtrs {
+    min-height: 400px; }
+    main .spprtrs header {
+      background: url("../img/supporters-top.png") no-repeat left center;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover; }
+    main .spprtrs footer {
+      background: url("../img/supporters-bottom.png") no-repeat left center;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover; }
+
 .btn {
   border-radius: 0; }
-
-.container {
-  background-color: #fff;
-  padding: 0; }
+  .btn.btn-fcbk {
+    background-color: #044170; }
+  .btn.btn-frm {
+    background-color: #7f3015; }
+  .btn.btn-ltst-psts {
+    background-color: #4b4b4b; }
+  .btn.btn-swg {
+    background-color: #e15525; }
 
 .bg-ftr {
   background-color: #ef5a28;
