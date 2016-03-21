@@ -10,7 +10,8 @@ header {
 
 .container {
   background-color: #fff;
-  padding: 0; }
+  padding: 0;
+  color: #000; }
 
 .navbar {
   margin-bottom: 0;
@@ -33,7 +34,8 @@ header {
   background: url("../img/wood-banner.png") no-repeat center center;
   background-size: fill;
   padding: 50px 20px;
-  text-transform: none; }
+  text-transform: none;
+  color: #fff; }
   .bnnr a {
     color: #ef5a28;
     text-shadow: -2px 2px #000; }
@@ -46,13 +48,18 @@ header {
       display: block; }
 
 main {
-  margin-top: 50px; }
+  margin-top: 50px;
+  padding: 50px; }
+  main .scndry-nav ul {
+    margin: 0;
+    padding: 0; }
   main .scndry-nav li {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    list-style: none; }
     main .scndry-nav li a {
       font-weight: 100;
       text-align: left;
-      padding: 15px 15px 15px 75px;
+      padding: 15px;
       min-height: 75px;
       white-space: normal;
       overflow-wrap: break-word;
@@ -99,16 +106,20 @@ main {
     min-height: 400px; }
     main .spprtrs header {
       background: url("../img/supporters-top.png") no-repeat left center;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      -webkit-background-size: cover;
-      background-size: cover; }
+      -moz-background-size: fill;
+      -o-background-size: fill;
+      -webkit-background-size: fill;
+      background-size: fill;
+      color: #fff;
+      height: 88px; }
+      main .spprtrs header h2 {
+        text-shadow: -2px 2px #000; }
     main .spprtrs footer {
       background: url("../img/supporters-bottom.png") no-repeat left center;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      -webkit-background-size: cover;
-      background-size: cover; }
+      -moz-background-size: fill;
+      -o-background-size: fill;
+      -webkit-background-size: fill;
+      background-size: fill; }
 
 .btn {
   border-radius: 0; }
