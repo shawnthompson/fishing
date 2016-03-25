@@ -35,11 +35,11 @@ header {
       margin-top: -10px; }
 
 .bnnr {
+  background: url("../img/wood-banner.png") no-repeat center center;
+  background-size: fill;
   -moz-background-size: fill;
   -o-background-size: fill;
   -webkit-background-size: fill;
-  background: url("../img/wood-banner.png") no-repeat center center;
-  background-size: fill;
   padding: 50px 20px;
   text-transform: none;
   color: #fff; }
@@ -60,9 +60,9 @@ main .scndry-nav li {
     color: #fff;
     font-weight: 100;
     min-height: 75px;
+    overflow-wrap: break-word;
     text-align: left;
     text-transform: uppercase;
-    overflow-wrap: break-word;
     white-space: normal; }
 main .ftr-rprt {
   -moz-background-size: fill;
