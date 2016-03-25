@@ -156,20 +156,20 @@ main {
 
   // Nav map
   .nav-map {
-    background-color: #000;
     background: url('../img/navionics-banner.png') no-repeat left center;
+    background-color: #000;
+    background-size: cover;
+    font-size: 3em;
+    margin-bottom: 30px;
+    padding: 50px 20px 50px 130px;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
-    background-size: cover;
-    padding: 50px 20px 50px 130px;
-    font-size: 3em;
-    margin-bottom: 30px;
 
     p {
+      line-height: 1em;
       margin: 0;
       padding: 0;
-      line-height: 1em;
       text-shadow: -2px 2px #000;
 
       &:nth-child(2) {
