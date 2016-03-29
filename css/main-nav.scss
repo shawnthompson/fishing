@@ -1,0 +1,42 @@
+// Primary Navigation
+.navbar {
+  font-weight: 100;
+  margin-bottom: 0;
+  padding: 20px 3px;
+
+  li {
+
+    a {
+      border-left: solid 1px #ccc;
+      padding: 5px 10px;
+    }
+
+    .btn {
+      margin-right: 10px;
+      background-image: none;
+      color: #fff !important;
+      padding-left: 25px;
+      padding-right: 25px;
+
+      a {
+        border: 0;
+      }
+    }
+
+    &:nth-child(3) {
+      a {
+        border: 0;
+      }
+    }
+  }
+
+  .navbar-brand {
+    color: #e15525;
+
+    > img {
+      height: 35px;
+      margin-right: 15px;
+      margin-top: -10px;
+    }
+  }
+}

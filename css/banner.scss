@@ -1,0 +1,29 @@
+// Banner
+.bnnr {
+  background: url('../img/wood-banner.png') no-repeat center center;
+  background-size: fill;
+  -moz-background-size: fill;
+  -o-background-size: fill;
+  -webkit-background-size: fill;
+  padding: 50px 20px;
+  text-transform: none;
+  color: #fff;
+
+  a {
+    color: #ef5a28;
+    text-shadow: -2px 2px #000;
+
+    &:hover {
+      text-decoration: 0;
+      text-shadow: none;
+    }
+  }
+
+  .slgn {
+    font-size: 1.5em;
+
+    span {
+      display: block;
+    }
+  }
+}

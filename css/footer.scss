@@ -1,0 +1,29 @@
+// Big footer
+.bg-ftr {
+  background-color: #ef5a28;
+  clear: both;
+  padding: 50px 125px 200px;
+
+  li {
+    margin-bottom: 5px;
+
+    &.heading {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #fff;
+      font-weight: 100;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// Bottom footer
+.bttm-ftr {
+  background-color: #fff;
+  clear: both;
+  color: #aaa;
+  padding: 25px 100px 75px;
+}
+

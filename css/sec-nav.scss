@@ -1,0 +1,19 @@
+// Secondary Nav
+.scndry-nav {
+
+  li {
+    list-style: none;
+    margin-bottom: 20px;
+
+    a {
+      color: #fff;
+      font-weight: 100;
+      min-height: 80px;
+      overflow-wrap: break-word;
+      padding-left: 85px;
+      text-align: left;
+      text-transform: uppercase;
+      white-space: normal;
+    }
+  }
+}
