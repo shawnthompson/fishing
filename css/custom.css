@@ -11,16 +11,19 @@
   .navbar li a {
     border-left: solid 1px #ccc;
     padding: 5px 10px; }
-  .navbar li .btn {
-    background-image: none;
+    @media screen and (max-width: 992px) {
+      .navbar li a {
+        font-size: .8em; } }
+  .navbar li:nth-child(3) a {
+    border: 0; }
+  .navbar .btn {
+    background-image: none !important;
     color: #fff !important;
     margin-right: 10px;
     padding-left: 25px;
     padding-right: 25px; }
-    .navbar li .btn a {
+    .navbar .btn a {
       border: 0; }
-  .navbar li:nth-child(3) a {
-    border: 0; }
   .navbar .navbar-brand {
     color: #e15525; }
     .navbar .navbar-brand > img {
@@ -161,7 +164,7 @@
 .bg-ftr {
   background-color: #ef5a28;
   clear: both;
-  padding: 50px 125px 200px; }
+  padding: 50px 5px 200px; }
   .bg-ftr li {
     margin-bottom: 5px; }
     .bg-ftr li.heading {
