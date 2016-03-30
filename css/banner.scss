@@ -1,13 +1,17 @@
 // Banner
 .bnnr {
-  background: url('../img/wood-banner.png') no-repeat center center;
   background-size: fill;
   -moz-background-size: fill;
   -o-background-size: fill;
   -webkit-background-size: fill;
-  padding: 50px 20px;
-  text-transform: none;
+  background: #fff url('../img/wood-banner.png') no-repeat center center;
   color: #fff;
+  padding-bottom: 25px;
+  text-transform: none;
+
+  @media screen and (max-width: $break-small) {
+    margin-bottom: 15px;
+  }
 
   a {
     color: #ef5a28;
@@ -21,6 +25,7 @@
 
   .slgn {
     font-size: 1.5em;
+    padding-top: 25px;
 
     span {
       display: block;

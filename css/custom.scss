@@ -1,3 +1,9 @@
+//Variables
+$break-xsmall: 320px;
+$break-small: 768px;
+$break-medium: 992px;
+$break-large: 1200px;
+
 // Header
 @import 'logo';
 @import 'main-nav';
@@ -21,13 +27,24 @@ body {
   text-transform: uppercase;
 }
 
+
+
 .container {
-  padding: 0;
+
+  @media screen and (max-width: $break-small) {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
 }
 
 main {
   background-color: #fff;
   color: #000;
-  padding-top: 50px;
   padding-bottom: 50px;
+  padding-top: 50px;
+
+  @media screen and (max-width: $break-small) {
+    padding-top: 0;
+  }
 }

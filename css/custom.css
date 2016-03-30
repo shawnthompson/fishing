@@ -12,9 +12,9 @@
     border-left: solid 1px #ccc;
     padding: 5px 10px; }
   .navbar li .btn {
-    margin-right: 10px;
     background-image: none;
     color: #fff !important;
+    margin-right: 10px;
     padding-left: 25px;
     padding-right: 25px; }
     .navbar li .btn a {
@@ -29,14 +29,17 @@
       margin-top: -10px; }
 
 .bnnr {
-  background: url("../img/wood-banner.png") no-repeat center center;
   background-size: fill;
   -moz-background-size: fill;
   -o-background-size: fill;
   -webkit-background-size: fill;
-  padding: 50px 20px;
-  text-transform: none;
-  color: #fff; }
+  background: #fff url("../img/wood-banner.png") no-repeat center center;
+  color: #fff;
+  padding-bottom: 25px;
+  text-transform: none; }
+  @media screen and (max-width: 768px) {
+    .bnnr {
+      margin-bottom: 15px; } }
   .bnnr a {
     color: #ef5a28;
     text-shadow: -2px 2px #000; }
@@ -44,33 +47,40 @@
       text-decoration: 0;
       text-shadow: none; }
   .bnnr .slgn {
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    padding-top: 25px; }
     .bnnr .slgn span {
       display: block; }
 
 .scndry-nav li {
   list-style: none;
   margin-bottom: 20px; }
+  @media screen and (max-width: 768px) {
+    .scndry-nav li {
+      margin-bottom: 0; } }
   .scndry-nav li a {
     color: #fff;
     font-weight: 100;
     min-height: 80px;
     overflow-wrap: break-word;
+    padding-bottom: 25px;
+    padding-top: 25px;
     padding-left: 85px;
     text-align: left;
     text-transform: uppercase;
     white-space: normal; }
 
 .ftr-rprt {
+  background: url("../img/feature-border.png") no-repeat center center;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-  background-size: cover;
-  background: url("../img/feature-border.png") no-repeat center center; }
+  background-size: cover; }
   .ftr-rprt img {
-    width: 600px; }
+    width: 100%; }
   .ftr-rprt h2 {
-    color: #e15525; }
+    color: #e15525;
+    padding-left: 15px; }
   .ftr-rprt .dl-horizontal {
     color: #fff;
     margin-top: 15px; }
@@ -83,12 +93,12 @@
       margin-left: 0; }
 
 .nav-map .col-sm-10 {
+  background: url("../img/navionics-banner.png") no-repeat left center;
   background-color: #000;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  background: url("../img/navionics-banner.png") no-repeat left center;
   font-size: 3em;
   margin-bottom: 30px;
   margin-top: 50px;
@@ -111,8 +121,12 @@
   color: #fff;
   min-height: 88px; }
   .spprtrs .spprtrs-hdr h2 {
-    text-shadow: -2px 2px #000;
-    padding: 5px 5px 5px 15px; }
+    padding: 5px 5px 5px 15px;
+    text-shadow: -2px 2px #000; }
+.spprtrs .spprtrs-body .thumbnail {
+  background-color: #ef5a28; }
+  .spprtrs .spprtrs-body .thumbnail:hover {
+    opacity: .8; }
 .spprtrs .spprtrs-ftr {
   background: url("../img/supporters-bottom.png") no-repeat left center;
   -moz-background-size: fill;
@@ -126,23 +140,23 @@
   .btn.btn-fcbk {
     background-color: #044170;
     background-image: url("../img/icon-facebook.png");
-    background-repeat: no-repeat;
-    background-position: 5px center; }
+    background-position: 5px center;
+    background-repeat: no-repeat; }
   .btn.btn-frm {
     background-color: #7f3015;
     background-image: url("../img/icon-forum.png");
-    background-repeat: no-repeat;
-    background-position: 5px center; }
+    background-position: 5px center;
+    background-repeat: no-repeat; }
   .btn.btn-ltst-psts {
     background-color: #4b4b4b;
     background-image: url("../img/icon-new.png");
-    background-repeat: no-repeat;
-    background-position: 5px center; }
+    background-position: 5px center;
+    background-repeat: no-repeat; }
   .btn.btn-swg {
     background-color: #e15525;
     background-image: url("../img/icon-fish-hawk.png");
-    background-repeat: no-repeat;
-    background-position: 5px center; }
+    background-position: 5px center;
+    background-repeat: no-repeat; }
 
 .bg-ftr {
   background-color: #ef5a28;
@@ -168,13 +182,19 @@ body {
   color: #fff;
   text-transform: uppercase; }
 
-.container {
-  padding: 0; }
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    background-color: #fff; } }
 
 main {
   background-color: #fff;
   color: #000;
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  padding-top: 50px; }
+  @media screen and (max-width: 768px) {
+    main {
+      padding-top: 0; } }
 
 /*# sourceMappingURL=custom.css.map */

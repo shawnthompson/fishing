@@ -1,19 +1,20 @@
 // Feature Report 653 × 479
 .ftr-rprt {
+  background: url('../img/feature-border.png') no-repeat center center;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  background: url('../img/feature-border.png') no-repeat center center;
   // min-width: 653px;
   // min-height: 479px;
 
   img {
-    width: 600px;
+    width: 100%;
   }
 
   h2 {
     color: #e15525;
+    padding-left: 15px;
   }
 
   .dl-horizontal {
