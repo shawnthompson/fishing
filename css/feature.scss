@@ -1,25 +1,30 @@
 // Feature Report 653 × 479
 .ftr-rprt {
   background: url('../img/feature-border.png') no-repeat center center;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  -moz-background-size: fill;
+  -o-background-size: fill;
+  -webkit-background-size: fill;
+  background-size: 100% 100%;
   // min-width: 653px;
   // min-height: 479px;
 
   img {
-    width: 100%;
+    width: 75%;
   }
 
   h2 {
     color: #e15525;
-    padding-left: 15px;
+    padding: 15px 5px 10px 30px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 700;
   }
 
   .dl-horizontal {
     color: #fff;
-    margin-top: 15px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 30px;
 
     dt {
       margin-left: 15px;
