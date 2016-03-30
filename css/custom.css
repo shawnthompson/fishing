@@ -75,9 +75,9 @@
 
 .ftr-rprt {
   background: url("../img/feature-border.png") no-repeat center center;
-  -moz-background-size: fill;
-  -o-background-size: fill;
-  -webkit-background-size: fill;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
   background-size: 100% 100%; }
   .ftr-rprt img {
     width: 75%; }
@@ -89,9 +89,7 @@
     font-weight: 700; }
   .ftr-rprt .dl-horizontal {
     color: #fff;
-    padding-top: 15px;
-    padding-left: 30px;
-    padding-bottom: 30px; }
+    padding: 15px 5px 30px 30px; }
     .ftr-rprt .dl-horizontal dt {
       margin-left: 15px;
       margin-right: 15px;
