@@ -210,7 +210,9 @@ body {
   .container {
     margin: 0;
     padding: 0;
-    background-color: #fff; } }
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: auto; } }
 
 main {
   background-color: #fff;
