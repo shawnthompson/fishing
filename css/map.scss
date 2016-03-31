@@ -1,17 +1,35 @@
 // Nav map
 .nav-map {
 
-  .col-sm-10 {
+  div {
     background: url('../img/navionics-banner.png') no-repeat left center;
     background-color: #000;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+    color: #fff;
+    display: block;
     font-size: 3em;
     margin-bottom: 30px;
     margin-top: 50px;
     padding: 50px 20px 50px 130px;
+
+    @media screen and (max-width: $break-medium) {
+      font-size: 2em;
+    }
+
+    @media screen and (max-width: $break-small) {
+      font-size: 1.2em;
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      p {
+        text-shadow: -4px 4px #333;
+      }
+    }
   }
 
   p {

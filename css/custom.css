@@ -98,17 +98,29 @@
     .ftr-rprt .dl-horizontal dd {
       margin-left: 0; }
 
-.nav-map .col-sm-10 {
+.nav-map div {
   background: url("../img/navionics-banner.png") no-repeat left center;
   background-color: #000;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+  color: #fff;
+  display: block;
   font-size: 3em;
   margin-bottom: 30px;
   margin-top: 50px;
   padding: 50px 20px 50px 130px; }
+  @media screen and (max-width: 992px) {
+    .nav-map div {
+      font-size: 2em; } }
+  @media screen and (max-width: 768px) {
+    .nav-map div {
+      font-size: 1.2em; } }
+  .nav-map div:hover {
+    text-decoration: none; }
+    .nav-map div:hover p {
+      text-shadow: -4px 4px #333; }
 .nav-map p {
   line-height: 1em;
   margin: 0;
@@ -129,16 +141,22 @@
   .spprtrs .spprtrs-hdr h2 {
     padding: 5px 5px 5px 15px;
     text-shadow: -2px 2px #000; }
+    @media screen and (max-width: 992px) {
+      .spprtrs .spprtrs-hdr h2 {
+        font-size: 2em; } }
+    @media screen and (max-width: 768px) {
+      .spprtrs .spprtrs-hdr h2 {
+        font-size: 1.2em; } }
 .spprtrs .spprtrs-body .thumbnail {
   background-color: #ef5a28; }
   .spprtrs .spprtrs-body .thumbnail:hover {
     opacity: .8; }
 .spprtrs .spprtrs-ftr {
   background: url("../img/supporters-bottom.png") no-repeat left center;
-  -moz-background-size: fill;
-  -o-background-size: fill;
-  -webkit-background-size: fill;
-  background-size: fill;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
   min-height: 90px; }
 
 .btn {
