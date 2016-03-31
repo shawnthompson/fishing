@@ -7,6 +7,10 @@
   li {
     margin-bottom: 5px;
 
+    @media screen and (max-width: $break-small) {
+      margin-bottom: 15px;
+    }
+
     &.heading {
       margin-bottom: 10px;
     }

@@ -198,6 +198,9 @@
   padding: 50px 5px 200px; }
   .bg-ftr li {
     margin-bottom: 5px; }
+    @media screen and (max-width: 768px) {
+      .bg-ftr li {
+        margin-bottom: 15px; } }
     .bg-ftr li.heading {
       margin-bottom: 10px; }
     .bg-ftr li a {
