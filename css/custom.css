@@ -5,7 +5,7 @@
   width: 328px; }
 
 .navbar {
-  font-weight: 100;
+  font-weight: 200;
   margin-bottom: 0;
   padding: 20px 3px; }
   .navbar li a {
@@ -30,6 +30,12 @@
       height: 35px;
       margin-right: 15px;
       margin-top: -10px; }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+  .navbar .navbar-collapse {
+    text-align: center; }
 
 .bnnr {
   background-size: fill;
@@ -52,6 +58,9 @@
   .bnnr .slgn {
     font-size: 1.5em;
     padding-top: 25px; }
+    @media screen and (max-width: 768px) {
+      .bnnr .slgn {
+        font-size: 1em; } }
     .bnnr .slgn span {
       display: block; }
 
@@ -63,7 +72,7 @@
       margin-bottom: 0; } }
   .scndry-nav li a {
     color: #fff;
-    font-weight: 100;
+    font-weight: 300;
     min-height: 80px;
     overflow-wrap: break-word;
     padding-bottom: 25px;
@@ -79,14 +88,17 @@
   -o-background-size: 100% 100%;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%; }
+  @media screen and (max-width: 768px) {
+    .ftr-rprt {
+      background-color: #000; } }
   .ftr-rprt img {
     width: 75%; }
   .ftr-rprt h2 {
     color: #e15525;
-    padding: 15px 5px 10px 30px;
-    margin-top: 10px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-weight: 700; }
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 15px 5px 10px 30px; }
   .ftr-rprt .dl-horizontal {
     color: #fff;
     padding: 15px 5px 30px 30px; }
@@ -108,8 +120,6 @@
   color: #fff;
   display: block;
   font-size: 3em;
-  margin-bottom: 30px;
-  margin-top: 50px;
   padding: 50px 20px 50px 130px; }
   @media screen and (max-width: 992px) {
     .nav-map div {
@@ -217,7 +227,7 @@ body {
 main {
   background-color: #fff;
   color: #000;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   padding-top: 50px; }
   @media screen and (max-width: 768px) {
     main {

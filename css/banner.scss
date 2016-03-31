@@ -27,6 +27,10 @@
     font-size: 1.5em;
     padding-top: 25px;
 
+    @media screen and (max-width: $break-small) {
+      font-size: 1em;
+    }
+
     span {
       display: block;
     }

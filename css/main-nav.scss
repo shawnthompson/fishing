@@ -1,6 +1,6 @@
 // Primary Navigation
 .navbar {
-  font-weight: 100;
+  font-weight: 200;
   margin-bottom: 0;
   padding: 20px 3px;
 
@@ -43,4 +43,15 @@
       margin-top: -10px;
     }
   }
+
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
 }
+
