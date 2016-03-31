@@ -13,13 +13,19 @@
       color: #fff;
       font-weight: 300;
       min-height: 80px;
+      font-size: .8em;
       overflow-wrap: break-word;
       padding-bottom: 25px;
       padding-top: 25px;
-      padding-left: 85px;
+      // padding-left: 85px;
       text-align: left;
       text-transform: uppercase;
       white-space: normal;
+
+      img {
+        margin-right: 10px;
+        height: 60px;
+      }
     }
   }
 }

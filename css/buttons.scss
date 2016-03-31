@@ -4,16 +4,23 @@
 
   // Facebook Button
   &.btn-fcbk {
-    background-color: #044170;
-    background-image: url('../img/icon-facebook.png');
-    background-position: 5px center;
-    background-repeat: no-repeat;
+    background: rgba(4,65,112,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(4,65,112,1) 0%, rgba(3,37,64,1) 44%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(4,65,112,1)), color-stop(44%, rgba(3,37,64,1)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(4,65,112,1) 0%, rgba(3,37,64,1) 44%, rgba(0,0,0,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(4,65,112,1) 0%, rgba(3,37,64,1) 44%, rgba(0,0,0,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(4,65,112,1) 0%, rgba(3,37,64,1) 44%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(4,65,112,1) 0%, rgba(3,37,64,1) 44%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#044170', endColorstr='#000000', GradientType=1 );
+    // background-image: url('../img/icon-facebook.png');
+    // background-position: 5px center;
+    // background-repeat: no-repeat;
   }
 
   // Forum Button
   &.btn-frm {
     background-color: #7f3015;
-    background-image: url('../img/icon-forum.png');
+    // background-image: url('../img/icon-forum.png');
     background-position: 5px center;
     background-repeat: no-repeat;
   }
@@ -21,7 +28,7 @@
   // Lastest Posts Button
   &.btn-ltst-psts {
     background-color: #4b4b4b;
-    background-image: url('../img/icon-new.png');
+    // background-image: url('../img/icon-new.png');
     background-position: 5px center;
     background-repeat: no-repeat;
   }
@@ -29,7 +36,7 @@
   // Swag Button
   &.btn-swg {
     background-color: #e15525;
-    background-image: url('../img/icon-fish-hawk.png');
+    // background-image: url('../img/icon-fish-hawk.png');
     background-position: 5px center;
     background-repeat: no-repeat;
   }

@@ -74,13 +74,16 @@
     color: #fff;
     font-weight: 300;
     min-height: 80px;
+    font-size: .8em;
     overflow-wrap: break-word;
     padding-bottom: 25px;
     padding-top: 25px;
-    padding-left: 85px;
     text-align: left;
     text-transform: uppercase;
     white-space: normal; }
+    .scndry-nav li a img {
+      margin-right: 10px;
+      height: 60px; }
 
 .ftr-rprt {
   background: url("../img/feature-border.png") no-repeat center center;
@@ -102,6 +105,9 @@
   .ftr-rprt .dl-horizontal {
     color: #fff;
     padding: 15px 5px 30px 30px; }
+    @media screen and (max-width: 768px) {
+      .ftr-rprt .dl-horizontal {
+        font-size: .8em; } }
     .ftr-rprt .dl-horizontal dt {
       margin-left: 15px;
       margin-right: 15px;
@@ -172,23 +178,24 @@
 .btn {
   border-radius: 0; }
   .btn.btn-fcbk {
-    background-color: #044170;
-    background-image: url("../img/icon-facebook.png");
-    background-position: 5px center;
-    background-repeat: no-repeat; }
+    background: #044170;
+    background: -moz-radial-gradient(center, ellipse cover, #044170 0%, #032540 44%, black 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #044170), color-stop(44%, #032540), color-stop(100%, black));
+    background: -webkit-radial-gradient(center, ellipse cover, #044170 0%, #032540 44%, black 100%);
+    background: -o-radial-gradient(center, ellipse cover, #044170 0%, #032540 44%, black 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #044170 0%, #032540 44%, black 100%);
+    background: radial-gradient(ellipse at center, #044170 0%, #032540 44%, black 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#044170', endColorstr='#000000', GradientType=1 ); }
   .btn.btn-frm {
     background-color: #7f3015;
-    background-image: url("../img/icon-forum.png");
     background-position: 5px center;
     background-repeat: no-repeat; }
   .btn.btn-ltst-psts {
     background-color: #4b4b4b;
-    background-image: url("../img/icon-new.png");
     background-position: 5px center;
     background-repeat: no-repeat; }
   .btn.btn-swg {
     background-color: #e15525;
-    background-image: url("../img/icon-fish-hawk.png");
     background-position: 5px center;
     background-repeat: no-repeat; }
 
