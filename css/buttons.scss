@@ -2,6 +2,11 @@
 .btn {
   border-radius: 0;
 
+  &:hover {
+    color: #ccc;
+    opacity: .8;
+  }
+
   // Facebook Button
   &.btn-fcbk {
     background: rgba(4,65,112,1);

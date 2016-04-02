@@ -4,7 +4,21 @@
   margin-bottom: 0;
   padding: 20px 3px;
 
+  @media screen and (max-width: $break-small) {
+    padding-bottom: 0;
+  }
+
+  .nav.navbar-nav {
+    @media screen and (max-width: $break-small) {
+      display: block;
+    }
+  }
+
   li {
+      @media screen and (max-width: $break-small) {
+        margin-bottom: 3px;
+        background-color: #ccc;
+      }
 
     a {
       border-left: solid 1px #ccc;
@@ -13,6 +27,11 @@
       @media screen and (max-width: $break-medium) {
         font-size: .8em;
       }
+       @media screen and (max-width: $break-small) {
+        border: 0;
+        font-size: 1em;
+        padding: 15px;
+       }
     }
 
     &:nth-child(3) {
